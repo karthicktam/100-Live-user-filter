@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Muli", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  display: inline-block;
+  opacity: 0.8;
+  margin: 5px 0 20px;
+}
+
+.header {
+  background-color: #ffa299;
+  padding: 20px 30px;
+}
+
+.header input {
+  background-color: #fff;
+  border: 0;
+  border-radius: 50px;
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.users-list {
+  background-color: #fff;
+  list-style-type: none;
+  color: #000;
+  margin: 0;
+  max-height: 400px;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.users-list li {
+  display: flex;
+  padding: 20px;
+}
+
+.users-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.users-list li img {
+  border-radius: 50px;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.user-info {
+  margin-left: 10px;
+}
+
+.user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-info p {
+  font-size: 12px;
+}
